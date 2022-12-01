@@ -44,3 +44,5 @@ fn1[1]()
 //运行结果：
 //1
 //5
+
+// (function test(msg) {console.log(msg)})('iife')

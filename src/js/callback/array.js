@@ -48,6 +48,10 @@ console.log(result)
 
 
 const testArr=[[6,2],3,4,[4],5]
+//打平，排序，过滤数值为4的元素，然后打印所有值
 
-testArr.flat().sort((a,b)=>a-b).filter((item)=>item!==4).forEach((item)=>console.log(item))
+testArr.flat()
+       .sort((a,b)=>a-b)
+       .filter((item)=>item!==4)
+       .forEach((item)=>console.log(item))
 
